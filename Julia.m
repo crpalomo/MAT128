@@ -1,5 +1,7 @@
 %Julia Set
 
+syms('c','phi','zk','z','x','y','fixpt1','fixpt2','M','kcount')
+
 phi = inline('z^2 - 1.25');
 fixpt1 = (1 + sqrt(6))/2;
 fixpt2 = (1 - sqrt(6))/2;
@@ -8,9 +10,9 @@ colormap([1 0 0; 1 1 1]);
 
 M = 2*ones(141,361);
 
-for j=1:141,
+for j=1:141
     y = -0.7 + (j-1)*0.01;
-    for i =1:361,
+    for i =1:361
         x = -1.8 + (i-1)*0.1;
         z = x + 1i*y;
         zk = z;
@@ -18,7 +20,7 @@ for j=1:141,
         iflag2 = 0;
         kcount = 0;
         
-        while kcount < 100 && abs(zk) < 2 && iflag1 < 5 && iflag2 < 5,
+        while kcount < 100 && abs(zk) < 2 && iflag1 < 5 && iflag2 < 5
             kcount = kcount + 1;
             zk = phi(zk);
             
@@ -38,10 +40,10 @@ for j=1:141,
                 
         end
         
-        if iflag1 >= 5 | iflag2 >= 5 | kcount >= 100,
+        if iflag1 >= 5 || iflag2 >= 5 || kcount >= 100
             M(j,i) = 1;
         end
     end
 end
-image([-1.8 1.8],[-0.7 0.7],M),
+image([-1.8 -1.6],[-0.7 0.7],M),
 axis xy
