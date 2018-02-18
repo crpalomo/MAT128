@@ -51,8 +51,3 @@ elseif abs(zk) > 100
 else
     fprintf('Orb(0) is still bounded after 1500 iterations, assume connnectivity.\n')
 end
-
-
-% image([-high, high], [-low, low], M);
-% axis xy
-% title(['Part 2: c = ', num2str(c)])
