@@ -20,7 +20,7 @@ kount = 0;
 orbit = ones(1500); %We will let it run for 1500 times. If it still does
                     %diverge after this many times, we assume connected
 
-while kount < 1500 && abs(zk) <= 100 && iflag1 < 10 && iflag2 < 10
+while kount < 1500 && abs(zk) <= 100 && iflag1 < 6 && iflag2 < 6
     kount = kount + 1;
     zk = phi(zk);
     orbit(kount) = zk;
@@ -40,11 +40,11 @@ while kount < 1500 && abs(zk) <= 100 && iflag1 < 10 && iflag2 < 10
     end
 end
 
-if kount < 1000
+if kount < 1500
     orbit = orbit(1:kount)';
 end
 
-if iflag1 >= 10 || iflag2 >= 10
+if iflag1 >= 6 || iflag2 >= 6
     fprintf('Filled Julia set is connected, converges to fixed point.\n');
 elseif abs(zk) > 100
      fprintf('Orb(0) is unbounded, Filled Julia set is disconnnected.\n');
