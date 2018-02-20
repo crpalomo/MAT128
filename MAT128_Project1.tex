@@ -1,0 +1,105 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm,amsfonts,verbatim,fancyhdr,graphicx}
+\usepackage{enumerate}
+\usepackage{microtype}
+\usepackage{url}
+
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\textwidth}{0.8in}
+\addtolength{\textheight}{0.6in}
+\addtolength{\topmargin}{-.3in}
+
+\theoremstyle{plain}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{question}{Question}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{challenge}[theorem]{Challenge Problem}
+
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+
+% \DeclareMathOperator{\sin}{sin}   %% just an example (it's already defined)
+\DeclareMathOperator{\norm}{norm}
+\renewcommand{\baselinestretch}{1.2}
+\pagestyle{fancy}
+\fancyhf{ }
+\lhead{MAT 128B: Project 1}
+\rhead{M. Fiacco C. Palomo}
+\begin{document}
+	
+
+	\begin{titlepage}
+	\begin{center}
+			\vspace*{1cm}
+			\textbf{MAT 128B Project 1: }\linebreak
+			\textbf{Using Iteration Methods to Understand Fractal Geometry}\\
+			\vspace{1.0cm}
+			{Melissa Fiacco \& Carlos Palomo}\linebreak
+			Date: 19 February 2018\linebreak	
+		\end{center}
+	\end{titlepage}
+
+\subsection*{Introduction}
+In this project we are going to implement a series of computer programs that use iteration methods to generate different figures on on the plane. We will be focusing on the Filled Julia set, Julia set, and the Mandelbrot Set: The Julia set is a set of complex numbers that do not converge to any limit when a given mapping is repeatedly applied to them, and the Mandelbrot Set is a particular set of complex numbers that has a highly convoluted fractal boundary when plotted representing convergence of the Julia set. Both sets produce interesting fractal geometry in the complex plane, which we will be able to generate using our iteration methods.
+
+\subsection*{Part I: An introduction to Fractals}
+$ \phi(z)=z^2$ can be transformed into a fixed point problem to predict its behavior based on the value z.If $ |z_0| \le 1$,the orbit remains bounded and is referred to as the Filled Julia set. We will not find a singular fixed point, but the Julia set will find a sequences points mapped closely to themselves (never repeating) infinitely in an orbit contained within unit circle. Note $ z_0 \le e^i = cos(1) + isin(1) $which describes the Filled unit circle in the complex plane. This process is what creates the fractal- a pattern occurs as the orbit is created.
+Implementing the program on page 100, Julia.m, we produce the following figure, replicating figure 4.13 in the book:
+
+\begin{center}
+	\includegraphics*[scale = 0.5]{Plot1.png}
+\end{center}
+
+\subsection*{Part II: Generate (and plot) other examples changing the value of c in the function}
+
+We can generate different fractal patterns when we plot $ \phi(z) = z^2 + c $ using various c values (see below for various examples). However, we must be careful to restrict $ |z_0| \le 2 $; If we do not make this restriction, the orbit is unbounded and $ z_0 $ is not contained in the Julia set. This is due to $ z_0 $ existing outside of the unit circle and$ \phi(z) = z^2 + c $ growing outside of the unit circle, spiraling out; The computer program will reject our value, and end the program.\\
+
+If we change our $ z_0 $ values, we shift where the fractal is centered. It is possible to choose an initial value that will cause the program to fail, so we must be careful.
+As an example, we took our code from Part I, and changed zo from $ -0.8 $ and $ -1.8 $ to $ -0.9 $ and $ -1.5 $, respectively,  and the resulting fractal is now slightly shifted up and to the left, which reflects chosen $ z_0 $:
+
+\begin{center}
+	\includegraphics*[scale = 0.5]{Plot2.png}\vspace{5cm}
+\end{center}
+
+Examples of various c values and their graphs: \\
+
+\begin{tabular}{c c c}
+	c=0.36+0.1i                                   &c=-0.123-0.745i                         &c= -0.40+0.6i\\
+	\includegraphics*[scale = 0.3]{Plot3.png} 
+	& \includegraphics*[scale = 0.3]{Plot4.png} 
+	&\includegraphics*[scale = 0.3]{Plot5.png} 
+\end{tabular}
+
+\subsection*{Part IV: Computing the Fractal Dimension}
+The fractal dimension D is the complexity of a fractal: it measures the roughness of an object. The higher the fractal dimension, the more complex, and more rapidly the object changes as its scaled. For example, if we split a square into 4 squares, there will be N=4 squares similar to A, and each side is $ \frac{1}{2} $its original length, so $ D=\frac{4}{2}=2 $. With fractals, we cannot calculate this as easily, thus we must use algorithms to estimate the dimension.
+
+\subsection*{Part V: Connectivity of the Julia Set }
+We created a program which computes orb(0) to determine connectivity of the Julia set. We say divergence occurs if $ |z| > 100 $, i.e. orb(0) is unbounded, thus the Julia set is not connected. After 1500 iterations, if $  |z |< 100 $, but our function does not converge to fixed point, we assume orb(0) is bounded, and Filled Julia set is connected. We tested our function with various c values we used in part II. Based on the figures created in part II, we expected $ c=0.36+0.1i $ and $ c=-0.123-0.745i $ to be connected and $ c=-0.4+0.6i $ not connected, which is what our program gave us.\\
+
+\includegraphics*[scale = 0.7]{Result1.png}\\
+\includegraphics*[scale = 0.7]{Result2.png}\\
+\includegraphics*[scale = 0.7]{Result3.png}
+
+\subsection*{Part VI: Coloring Divergent Sets }
+We can extend part V to create a color coded figure that tells us how long it takes for an orbit to diverge given a c value. Our color map is darker the higher number of iterations it takes to diverge for a range of z values, given c. We tested our c values from part II, and received the following images. Note, since we diverge when $| z|>100 $, we extended the domain and range to include all values within $ |z|<100 $. \\
+
+\begin{tabular}{c c c}
+	c=0.36+0.1i                                  &c=-0.123-0.745i                         &c= -0.40+0.6i\\
+	\includegraphics*[scale = 0.3]{Plot6.png} 
+	& \includegraphics*[scale = 0.3]{Plot7.png} 
+	&\includegraphics*[scale = 0.3]{Plot8.png} 
+\end{tabular}
+
+\end{document}
