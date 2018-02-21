@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 FEB 2018 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 FEB 2018 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -153,25 +153,82 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count100
+\calc@Bcount=\count101
+\calc@Adimen=\dimen114
+\calc@Bdimen=\dimen115
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count102
+\calc@Cskip=\skip60
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen116
+\AM@pageheight=\dimen117
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box28
+\AM@global@opts=\toks28
+\AM@toc@title=\toks29
+\c@AM@survey=\count103
+\AM@templatesizebox=\box29
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks28
+\@enLab=\toks30
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks29
-\MT@count=\count100
+\MT@toks=\toks31
+\MT@count=\count104
 LaTeX Info: Redefining \textls on input line 774.
-\MT@outer@kern=\dimen114
+\MT@outer@kern=\dimen118
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count101
+\MT@listname@count=\count105
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 916.
 LaTeX Info: Redefining \lslig on input line 916.
-\MT@outer@space=\skip58
+\MT@outer@space=\skip61
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -182,38 +239,38 @@ File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@theorem=\count102
-\c@question=\count103
+\c@theorem=\count106
+\c@question=\count107
 
 (./MAT128_Project1.aux)
 \openout1 = `MAT128_Project1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen115
-\scratchbox=\box28
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen116
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count108
+\scratchdimen=\dimen119
+\scratchbox=\box30
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen120
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks33
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -221,9 +278,6 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -263,7 +317,20 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 40.
+\AtBeginShipoutBox=\box31
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+LaTeX Info: Redefining \microtypecontext on input line 41.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -280,7 +347,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 ) [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 58.
+LaTeX Font Info:    Try loading font information for U+msa on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -288,7 +355,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 58.
+LaTeX Font Info:    Try loading font information for U+msb on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -299,10 +366,10 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <Plot1.png, id=8, 484.81125pt x 385.44pt>
 File: Plot1.png Graphic file (type png)
  <use Plot1.png>
-Package pdftex.def Info: Plot1.png used on input line 62.
+Package pdftex.def Info: Plot1.png used on input line 63.
 (pdftex.def)             Requested size: 242.40503pt x 192.71953pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
@@ -315,90 +382,228 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1 <./Plot1.png>] <Plot2.png, id=21, 497.86pt x 379.4175pt>
 File: Plot2.png Graphic file (type png)
  <use Plot2.png>
-Package pdftex.def Info: Plot2.png used on input line 73.
+Package pdftex.def Info: Plot2.png used on input line 74.
 (pdftex.def)             Requested size: 248.92938pt x 189.70828pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [2 <./Plot2.png>] <Plot3.png, id=28, 390.45876pt x 382.42876pt>
 File: Plot3.png Graphic file (type png)
 
 <use Plot3.png>
-Package pdftex.def Info: Plot3.png used on input line 80.
+Package pdftex.def Info: Plot3.png used on input line 81.
 (pdftex.def)             Requested size: 117.13852pt x 114.7295pt.
  <Plot4.png, id=30, 384.43625pt x 376.40625pt>
 File: Plot4.png Graphic file (type png)
  <use Plot4.png>
-Package pdftex.def Info: Plot4.png used on input line 81.
+Package pdftex.def Info: Plot4.png used on input line 82.
 (pdftex.def)             Requested size: 115.33176pt x 112.92273pt.
 
 <Plot5.png, id=32, 420.57124pt x 385.44pt>
 File: Plot5.png Graphic file (type png)
  <use Plot5.png>
-Package pdftex.def Info: Plot5.png used on input line 82.
+Package pdftex.def Info: Plot5.png used on input line 83.
 (pdftex.def)             Requested size: 126.17235pt x 115.63289pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-<Result1.png, id=34, 555.07375pt x 143.53625pt>
+<Plot10.png, id=34, 469.755pt x 382.42876pt>
+File: Plot10.png Graphic file (type png)
+ <use Plot10.png>
+Package pdftex.def Info: Plot10.png used on input line 91.
+(pdftex.def)             Requested size: 117.43846pt x 95.60695pt.
+
+<Plot11.png, id=36, 481.8pt x 379.4175pt>
+File: Plot11.png Graphic file (type png)
+ <use Plot11.png>
+Package pdftex.def Info: Plot11.png used on input line 92.
+(pdftex.def)             Requested size: 120.44969pt x 94.85414pt.
+
+<Plot12.png, id=38, 485.815pt x 378.41376pt>
+File: Plot12.png Graphic file (type png)
+ <use Plot12.png>
+Package pdftex.def Info: Plot12.png used on input line 93.
+(pdftex.def)             Requested size: 121.45345pt x 94.6032pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <./Plot3.png> <./Plot4.png> <./Plot5.png> <./Plot10.png> <./Plot11.png> <./P
+lot12.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+<Result1.png, id=55, 555.07375pt x 143.53625pt>
 File: Result1.png Graphic file (type png)
  <use Result1.png>
-Package pdftex.def Info: Result1.png used on input line 91.
+Package pdftex.def Info: Result1.png used on input line 103.
 (pdftex.def)             Requested size: 388.54897pt x 100.47467pt.
 
-<Result2.png, id=36, 557.08125pt x 142.5325pt>
+<Result2.png, id=57, 557.08125pt x 142.5325pt>
 File: Result2.png Graphic file (type png)
  <use Result2.png>
-Package pdftex.def Info: Result2.png used on input line 92.
+Package pdftex.def Info: Result2.png used on input line 104.
 (pdftex.def)             Requested size: 389.95422pt x 99.77205pt.
 
-<Result3.png, id=38, 557.08125pt x 148.555pt>
+<Result3.png, id=59, 557.08125pt x 148.555pt>
 File: Result3.png Graphic file (type png)
  <use Result3.png>
-Package pdftex.def Info: Result3.png used on input line 93.
+Package pdftex.def Info: Result3.png used on input line 105.
 (pdftex.def)             Requested size: 389.95422pt x 103.98778pt.
- [3 <./Plot3.png> <./Plot4.png> <./Plot5.png> <./Result1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-<Plot6.png, id=51, 396.48125pt x 374.39874pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <./Result1.png> <./Result2.png> <./Result3.png>]
+<Plot6.png, id=70, 396.48125pt x 374.39874pt>
 File: Plot6.png Graphic file (type png)
  <use Plot6.png>
-Package pdftex.def Info: Plot6.png used on input line 100.
+Package pdftex.def Info: Plot6.png used on input line 112.
 (pdftex.def)             Requested size: 118.94528pt x 112.32048pt.
 
-<Plot7.png, id=53, 386.44376pt x 380.42125pt>
+<Plot7.png, id=72, 386.44376pt x 380.42125pt>
 File: Plot7.png Graphic file (type png)
  <use Plot7.png>
-Package pdftex.def Info: Plot7.png used on input line 101.
+Package pdftex.def Info: Plot7.png used on input line 113.
 (pdftex.def)             Requested size: 115.93402pt x 114.12724pt.
 
-<Plot8.png, id=55, 389.455pt x 380.42125pt>
+<Plot8.png, id=74, 389.455pt x 380.42125pt>
 File: Plot8.png Graphic file (type png)
  <use Plot8.png>
-Package pdftex.def Info: Plot8.png used on input line 102.
+Package pdftex.def Info: Plot8.png used on input line 114.
 (pdftex.def)             Requested size: 116.83739pt x 114.12724pt.
- [4 <./Result2.png> <./Result3.png> <./Plot6.png> <./Plot7.png> <./Plot8.png>]
-<Plot9.png, id=70, 389.455pt x 382.42876pt>
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ™ in font cmbx12!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+<Plot13.png, id=76, 388.45125pt x 380.42125pt>
+File: Plot13.png Graphic file (type png)
+ <use Plot13.png>
+Package pdftex.def Info: Plot13.png used on input line 123.
+(pdftex.def)             Requested size: 89.3419pt x 87.49504pt.
+
+<Plot14.png, id=78, 389.455pt x 372.39125pt>
+File: Plot14.png Graphic file (type png)
+ <use Plot14.png>
+Package pdftex.def Info: Plot14.png used on input line 124.
+(pdftex.def)             Requested size: 89.57275pt x 85.64818pt.
+
+<Plot15.png, id=80, 387.4475pt x 382.42876pt>
+File: Plot15.png Graphic file (type png)
+ <use Plot15.png>
+Package pdftex.def Info: Plot15.png used on input line 125.
+(pdftex.def)             Requested size: 89.11104pt x 87.95676pt.
+
+<Plot16.png, id=82, 399.4925pt x 380.42125pt>
+File: Plot16.png Graphic file (type png)
+ <use Plot16.png>
+Package pdftex.def Info: Plot16.png used on input line 126.
+(pdftex.def)             Requested size: 91.88133pt x 87.49504pt.
+
+Overfull \hbox (7.09082pt too wide) in paragraph at lines 121--128
+[][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./Plot6.png> <./Plot7.png> <./Plot8.png> <./Plot13.png> <./Plot14.png> <./P
+lot15.png> <./Plot16.png>] <Plot9.png, id=101, 389.455pt x 382.42876pt>
 File: Plot9.png Graphic file (type png)
- <use Plot9.png>
-Package pdftex.def Info: Plot9.png used on input line 109.
+
+<use Plot9.png>
+Package pdftex.def Info: Plot9.png used on input line 133.
 (pdftex.def)             Requested size: 194.72702pt x 191.2139pt.
- [5 <./Plot9.png>]
+ <CommitHistory.pdf, id=103, 1023.825pt x 1303.87125pt>
+File: CommitHistory.pdf Graphic file (type pdf)
+
+<use CommitHistory.pdf>
+Package pdftex.def Info: CommitHistory.pdf used on input line 139.
+(pdftex.def)             Requested size: 1023.8225pt x 1303.86807pt.
+File: CommitHistory.pdf Graphic file (type pdf)
+ <use CommitHistory.pdf>
+Package pdftex.def Info: CommitHistory.pdf used on input line 139.
+(pdftex.def)             Requested size: 1023.8225pt x 1303.86807pt.
+
+<CommitHistory.pdf, id=106, page=1, 1023.825pt x 1303.87125pt>
+File: CommitHistory.pdf Graphic file (type pdf)
+
+<use CommitHistory.pdf, page 1>
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
+(pdftex.def)             Requested size: 1023.8225pt x 1303.86807pt.
+File: CommitHistory.pdf Graphic file (type pdf)
+ <use CommitHistory.pdf, page 1>
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
+(pdftex.def)             Requested size: 716.6726pt x 912.70366pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./Plot9.png>]
+File: CommitHistory.pdf Graphic file (type pdf)
+ <use CommitHistory.pdf, page 1>
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
+(pdftex.def)             Requested size: 716.6726pt x 912.70366pt.
+File: CommitHistory.pdf Graphic file (type pdf)
+
+<use CommitHistory.pdf, page 1>
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
+(pdftex.def)             Requested size: 716.6726pt x 912.70366pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: CommitHistory.pdf Graphic file (type pdf)
+<use CommitHistory.pdf, page 1>
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
+(pdftex.def)             Requested size: 716.6726pt x 912.70366pt.
+ [7 <./CommitHistory.pdf>]
 (./MAT128_Project1.aux) ) 
 Here is how much of TeX's memory you used:
- 4397 strings out of 492995
- 64751 string characters out of 6132704
- 163374 words of memory out of 5000000
- 7834 multiletter control sequences out of 15000+600000
- 10268 words of font info for 56 fonts, out of 8000000 for 9000
+ 5755 strings out of 492995
+ 84463 string characters out of 6132704
+ 190031 words of memory out of 5000000
+ 9140 multiletter control sequences out of 15000+600000
+ 10370 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,43p,679b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,19n,46p,1063b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
@@ -407,10 +612,10 @@ sfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb>
-Output written on MAT128_Project1.pdf (6 pages, 206536 bytes).
+Output written on MAT128_Project1.pdf (8 pages, 373098 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 376 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 6277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6374 words of extra memory for PDF output out of 10000 (max. 10000000)
 

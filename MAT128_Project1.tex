@@ -1,5 +1,6 @@
 \documentclass[11pt]{article}
 \usepackage{amsmath,amssymb,amsthm,amsfonts,verbatim,fancyhdr,graphicx}
+\usepackage{pdfpages}
 \usepackage{enumerate}
 \usepackage{microtype}
 \usepackage{url}
@@ -82,8 +83,19 @@ Examples of various c values and their graphs: \\
 	&\includegraphics*[scale = 0.3]{Plot5.png} 
 \end{tabular}
 
+\subsection*{Part III: Constructing the Julia Set}
+In Part iI we constructed the Filled Julia set. In this part, we have constructed the Julia set, the boundary of the Filled Julia set for $ \Psi = \pm \sqrt{w-c} $.  The Inverse Iterative method utilizes multiple properties of complex numbers by splitting w and c into real and imaginary parts such that $ z=w-c $, and then finds $ \sqrt{z} $.\\
+
+\begin{tabular}{c c c}
+c=0.36+0.1i                                   &c=-0.123-0.745i                         &c= -0.40+0.6i\\
+\includegraphics*[scale = 0.25]{Plot10.png} 
+& \includegraphics*[scale = 0.25]{Plot11.png} 
+&\includegraphics*[scale = 0.25]{Plot12.png} 
+\end{tabular}
+
+
 \subsection*{Part IV: Computing the Fractal Dimension}
-The fractal dimension D is the complexity of a fractal: it measures the roughness of an object. The higher the fractal dimension, the more complex, and more rapidly the object changes as its scaled. For example, if we split a square into 4 squares, there will be N=4 squares similar to A, and each side is $ \frac{1}{2} $its original length, so $ D=\frac{4}{2}=2 $. With fractals, we cannot calculate this as easily, thus we must use algorithms to estimate the dimension.
+The fractal dimension D is the complexity of a fractal: it measures the roughness of an object. The higher the fractal dimension, the more complex, and more rapidly the object changes as its scaled. For example, if we split a square into 4 squares, there will be N=4 squares similar to A, and each side is $ \frac{1}{2} $its original length, so $ D=\frac{4}{2}=2 $. With fractals, we cannot calculate this as easily, thus we must use algorithms to estimate the dimension.We created two algorithms based off the paper \underline{On calculation of fractal dimension of images } by Ajay Kumar Bisoi and Jibitesh Mishra. The first method is the Reticular Cell Counting method and the second is Differential Box-Counting method. Using these to algorithms we attempted to find the fractal dimension for plot found in Part I. The Reticular Cell Counting method found a fractal dimension of 2 and the Differential Box-Counting method found a fractal dimension of 1. Applying the algorithms to the filled unit circle we found a fractal dimension of 1
 
 \subsection*{Part V: Connectivity of the Julia Set }
 We created a program which computes orb(0) to determine connectivity of the Julia set. We say divergence occurs if $ |z| > 100 $, i.e. orb(0) is unbounded, thus the Julia set is not connected. After 1500 iterations, if $  |z |< 100 $, but our function does not converge to fixed point, we assume orb(0) is bounded, and Filled Julia set is connected. We tested our function with various c values we used in part II. Based on the figures created in part II, we expected $ c=0.36+0.1i $ and $ c=-0.123-0.745i $ to be connected and $ c=-0.4+0.6i $ not connected, which is what our program gave us.\\
@@ -102,12 +114,28 @@ We can extend part V to create a color coded figure that tells us how long it ta
 	&\includegraphics*[scale = 0.3]{Plot8.png} 
 \end{tabular}
 
+\subsection*{Part VII: Newton’s Method in the Complex Plane}
+
+If we apply similar methods from the coloring orbits program, we can find the fixed points of a complex function using Newton’s Method. We used the same colormap, with black meaning divergence after no iterations or small amount of iterations, and white implying convergence. The fixed points exist on the boundaries of the two colors. We tested our code for the function $ z^n +1 $ for various n.\\
+
+\begin{tabular}{c c c c}
+	n=2                                &n=3                         &n=5	& n=15\\
+	\includegraphics*[scale = 0.23]{Plot13.png} 
+	& \includegraphics*[scale = 0.23]{Plot14.png} 
+	&\includegraphics*[scale = 0.23]{Plot15.png}
+	&\includegraphics*[scale = 0.23]{Plot16.png}
+\end{tabular}
+
 \subsection*{Part VIII: The Mandelbrot Set }
-For $  \phi(z)=z^2+c $, the Mandelbrot set shows where the Julia set is connected for various c values (the black region), and how long it takes for $ \phi(z)=z^2+c $ with $ z_0=0 $ to diverge.The lighter the color (away from black), the less iterations required to determine divergence. As we get closer to the black region, the darker the color is, and the longer it takes to determine divergence.
+For $  \phi(z)=z^2+c $, the Mandelbrot set shows where the Julia set is connected for various c values (the black region), and how long it takes for $ \phi(z)=z^2+c $ with $ z_0=0 $ to diverge.The lighter the color (away from black), the less iterations required to determine divergence. As we get closer to the black region, the darker the color is, and the longer it takes to determine divergence.The black region is where the color map is equivalently 0, meaning no divergence occurs
 
 \begin{center}
 	\includegraphics*[scale = 0.5]{Plot9.png}
 \end{center}
 
+\subsection*{Reference}
+Greenbaum, Anne; Chartier, Timothy P.. \underline{Numerical Methods: Design, Analysis, and}\linebreak \underline{Computer Implementation of Algorithms} (p. 98). Princeton University Press. Kindle Edition. 
+\pagebreak
+\includepdf[scale = 0.70, pagecommand = \subsection*{Commit History}]{CommitHistory.pdf}
 
 \end{document}

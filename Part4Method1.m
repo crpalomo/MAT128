@@ -1,4 +1,4 @@
-c= imread('Plot1.png');
+c= imread('FilledUnit.png');
 c = rgb2gray(c);
 [rows, columns, numberOfColorChannels] = size(image);
 
@@ -45,6 +45,6 @@ n(round((p+1))) = sum(c(:));
 n = n(end:-1:1);
 r = 2.^(0:p); 
 
-    loglog(r,n);
-    xlabel('r, box size'); ylabel('n(r), number of boxes');
-    coefficients = polyfit(x,y, 1);
+loglog(r,n);
+xlabel('r, box size'); ylabel('n(r), number of boxes');
+coefficients = polyfit(x,y, 1);
