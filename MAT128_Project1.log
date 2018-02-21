@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 FEB 2018 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 FEB 2018 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,43 +545,42 @@ File: Plot9.png Graphic file (type png)
 <use Plot9.png>
 Package pdftex.def Info: Plot9.png used on input line 133.
 (pdftex.def)             Requested size: 194.72702pt x 191.2139pt.
- <CommitHistory.pdf, id=103, 1023.825pt x 1303.87125pt>
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./Plot9.png>] <CommitHistory.pdf, id=109, 1023.825pt x 1303.87125pt>
 File: CommitHistory.pdf Graphic file (type pdf)
 
 <use CommitHistory.pdf>
-Package pdftex.def Info: CommitHistory.pdf used on input line 139.
+Package pdftex.def Info: CommitHistory.pdf used on input line 140.
 (pdftex.def)             Requested size: 1023.8225pt x 1303.86807pt.
 File: CommitHistory.pdf Graphic file (type pdf)
  <use CommitHistory.pdf>
-Package pdftex.def Info: CommitHistory.pdf used on input line 139.
+Package pdftex.def Info: CommitHistory.pdf used on input line 140.
 (pdftex.def)             Requested size: 1023.8225pt x 1303.86807pt.
 
-<CommitHistory.pdf, id=106, page=1, 1023.825pt x 1303.87125pt>
+<CommitHistory.pdf, id=112, page=1, 1023.825pt x 1303.87125pt>
 File: CommitHistory.pdf Graphic file (type pdf)
 
 <use CommitHistory.pdf, page 1>
-Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 140.
 (pdftex.def)             Requested size: 1023.8225pt x 1303.86807pt.
 File: CommitHistory.pdf Graphic file (type pdf)
  <use CommitHistory.pdf, page 1>
-Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
-(pdftex.def)             Requested size: 716.6726pt x 912.70366pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6 <./Plot9.png>]
-File: CommitHistory.pdf Graphic file (type pdf)
- <use CommitHistory.pdf, page 1>
-Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 140.
 (pdftex.def)             Requested size: 716.6726pt x 912.70366pt.
 File: CommitHistory.pdf Graphic file (type pdf)
 
 <use CommitHistory.pdf, page 1>
-Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 140.
+(pdftex.def)             Requested size: 716.6726pt x 912.70366pt.
+File: CommitHistory.pdf Graphic file (type pdf)
+ <use CommitHistory.pdf, page 1>
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 140.
 (pdftex.def)             Requested size: 716.6726pt x 912.70366pt.
 
 
@@ -592,30 +591,143 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: CommitHistory.pdf Graphic file (type pdf)
 <use CommitHistory.pdf, page 1>
-Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 139.
+Package pdftex.def Info: CommitHistory.pdf, page1 used on input line 140.
 (pdftex.def)             Requested size: 716.6726pt x 912.70366pt.
  [7 <./CommitHistory.pdf>]
-(./MAT128_Project1.aux) ) 
+<Part1Code.png, id=351, 633.36626pt x 671.50874pt>
+File: Part1Code.png Graphic file (type png)
+ <use Part1Code.png>
+Package pdftex.def Info: Part1Code.png used on input line 145.
+(pdftex.def)             Requested size: 221.6815pt x 235.03159pt.
+
+<Part2aCode.png, id=353, 747.79375pt x 700.6175pt>
+File: Part2aCode.png Graphic file (type png)
+ <use Part2aCode.png>
+Package pdftex.def Info: Part2aCode.png used on input line 147.
+(pdftex.def)             Requested size: 261.73172pt x 245.21979pt.
+
+<Part2bCode.png, id=355, 716.6775pt x 683.55376pt>
+File: Part2bCode.png Graphic file (type png)
+ <use Part2bCode.png>
+Package pdftex.def Info: Part2bCode.png used on input line 149.
+(pdftex.def)             Requested size: 250.84088pt x 239.24739pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./Part1Code.png> <./Part2aCode.png>]
+<Part2cCode.png, id=364, 725.71124pt x 669.50125pt>
+File: Part2cCode.png Graphic file (type png)
+ <use Part2cCode.png>
+Package pdftex.def Info: Part2cCode.png used on input line 151.
+(pdftex.def)             Requested size: 254.00273pt x 234.32895pt.
+
+<Part2dCode.png, id=366, 685.56125pt x 664.4825pt>
+File: Part2dCode.png Graphic file (type png)
+ <use Part2dCode.png>
+Package pdftex.def Info: Part2dCode.png used on input line 153.
+(pdftex.def)             Requested size: 239.95003pt x 232.57236pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./Part2bCode.png> <./Part2cCode.png>]
+<Part3Code.png, id=376, 762.85pt x 633.36626pt>
+File: Part3Code.png Graphic file (type png)
+ <use Part3Code.png>
+Package pdftex.def Info: Part3Code.png used on input line 155.
+(pdftex.def)             Requested size: 267.0015pt x 221.6815pt.
+
+<Part4aCode.png, id=378, 798.985pt x 689.57625pt>
+File: Part4aCode.png Graphic file (type png)
+ <use Part4aCode.png>
+Package pdftex.def Info: Part4aCode.png used on input line 157.
+(pdftex.def)             Requested size: 279.64894pt x 241.3553pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./Part2dCode.png> <./Part3Code.png>]
+<Part4bCode.png, id=387, 890.32625pt x 630.355pt>
+File: Part4bCode.png Graphic file (type png)
+ <use Part4bCode.png>
+Package pdftex.def Info: Part4bCode.png used on input line 159.
+(pdftex.def)             Requested size: 311.61885pt x 220.62755pt.
+
+<Part5Code.png, id=389, 779.91376pt x 718.685pt>
+File: Part5Code.png Graphic file (type png)
+ <use Part5Code.png>
+Package pdftex.def Info: Part5Code.png used on input line 161.
+(pdftex.def)             Requested size: 272.9739pt x 251.54352pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <./Part4aCode.png> <./Part4bCode.png>]
+<Part6Code.png, id=398, 663.47874pt x 651.43375pt>
+File: Part6Code.png Graphic file (type png)
+ <use Part6Code.png>
+Package pdftex.def Info: Part6Code.png used on input line 163.
+(pdftex.def)             Requested size: 232.22102pt x 228.00522pt.
+
+<Part7Code.png, id=400, 693.59125pt x 478.78876pt>
+File: Part7Code.png Graphic file (type png)
+ <use Part7Code.png>
+Package pdftex.def Info: Part7Code.png used on input line 165.
+(pdftex.def)             Requested size: 242.76057pt x 167.57857pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./Part5Code.png> <./Part6Code.png>]
+<Part8Code.png, id=410, 631.35875pt x 483.8075pt>
+File: Part8Code.png Graphic file (type png)
+ <use Part8Code.png>
+Package pdftex.def Info: Part8Code.png used on input line 167.
+(pdftex.def)             Requested size: 220.97887pt x 169.33516pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./Part7Code.png> <./Part8Code.png>] (./MAT128_Project1.aux) ) 
 Here is how much of TeX's memory you used:
- 5755 strings out of 492995
- 84463 string characters out of 6132704
+ 5815 strings out of 492995
+ 85501 string characters out of 6132704
  190031 words of memory out of 5000000
- 9140 multiletter control sequences out of 15000+600000
+ 9188 multiletter control sequences out of 15000+600000
  10370 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,19n,46p,1063b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb>
-Output written on MAT128_Project1.pdf (8 pages, 373098 bytes).
+</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on MAT128_Project1.pdf (14 pages, 2297129 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
+ 443 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 6374 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6506 words of extra memory for PDF output out of 10000 (max. 10000000)
 
